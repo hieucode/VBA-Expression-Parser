@@ -204,7 +204,7 @@ Public Function TreeEval(ByVal cTree As Collection) As Double
         Select Case UCase(cTree(2))
         Case "PI"
             dResult = 3.141592654
-        ' Put here you variables definitions
+        ' Below your constants definitions...
         Case Else
             dResult = Val(cTree(2))
         End Select
